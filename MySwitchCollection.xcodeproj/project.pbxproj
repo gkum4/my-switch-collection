@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		0CBFBE7E2703455200D6EDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBE7D2703455200D6EDDC /* AppDelegate.swift */; };
 		0CBFBE802703455200D6EDDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBE7F2703455200D6EDDC /* SceneDelegate.swift */; };
-		0CBFBE822703455200D6EDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBE812703455200D6EDDC /* ViewController.swift */; };
 		0CBFBE852703455200D6EDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFBE832703455200D6EDDC /* Main.storyboard */; };
 		0CBFBE872703455300D6EDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFBE862703455300D6EDDC /* Assets.xcassets */; };
 		0CBFBE8A2703455300D6EDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFBE882703455300D6EDDC /* LaunchScreen.storyboard */; };
+		0CBFBEA027035CC600D6EDDC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBE9F27035CC600D6EDDC /* MainVC.swift */; };
+		0CBFBEA327035ED600D6EDDC /* MainVCDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEA227035ED600D6EDDC /* MainVCDataSource.swift */; };
+		0CBFBEA827035F6A00D6EDDC /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEA727035F6A00D6EDDC /* Switch.swift */; };
+		0CBFBEAA27035FAD00D6EDDC /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEA927035FAD00D6EDDC /* Tag.swift */; };
+		0CBFBEAC2705DC8800D6EDDC /* MainVCFlowLayoutDelagate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEAB2705DC8800D6EDDC /* MainVCFlowLayoutDelagate.swift */; };
+		0CBFBEB32705E1AB00D6EDDC /* SwitchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEB12705E1AB00D6EDDC /* SwitchCollectionViewCell.swift */; };
+		0CBFBEB42705E1AB00D6EDDC /* SwitchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFBEB22705E1AB00D6EDDC /* SwitchCollectionViewCell.xib */; };
+		0CBFBEB82705F95600D6EDDC /* Constraint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEB72705F95600D6EDDC /* Constraint+.swift */; };
+		0CBFBEBA2706034800D6EDDC /* MainVCCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEB92706034800D6EDDC /* MainVCCollectionViewDelegate.swift */; };
+		0CBFBEBF27072F0F00D6EDDC /* AddEditSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEBD27072F0F00D6EDDC /* AddEditSwitchVC.swift */; };
+		0CBFBEC027072F0F00D6EDDC /* AddEditSwitchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFBEBE27072F0F00D6EDDC /* AddEditSwitchVC.xib */; };
+		0CBFBEC72707523300D6EDDC /* AddEditSwitchVCColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEC62707523300D6EDDC /* AddEditSwitchVCColorPickerDelegate.swift */; };
+		0CBFBECA2707787B00D6EDDC /* MySwitchCollectionModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEC82707787B00D6EDDC /* MySwitchCollectionModel.xcdatamodeld */; };
+		0CBFBEEF2707826A00D6EDDC /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEEE2707826A00D6EDDC /* UIColor+.swift */; };
+		0CBFBEF12708D9D900D6EDDC /* MainVCCoreDataOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEF02708D9D900D6EDDC /* MainVCCoreDataOperations.swift */; };
+		0CBFBEF32708DBC100D6EDDC /* MainVCSwitchListOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFBEF22708DBC100D6EDDC /* MainVCSwitchListOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CBFBE7A2703455200D6EDDC /* MySwitchCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwitchCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBFBE7D2703455200D6EDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBFBE7F2703455200D6EDDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CBFBE812703455200D6EDDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CBFBE842703455200D6EDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CBFBE862703455300D6EDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBFBE892703455300D6EDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBFBE8B2703455300D6EDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBFBE9F27035CC600D6EDDC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		0CBFBEA227035ED600D6EDDC /* MainVCDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCDataSource.swift; sourceTree = "<group>"; };
+		0CBFBEA727035F6A00D6EDDC /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		0CBFBEA927035FAD00D6EDDC /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		0CBFBEAB2705DC8800D6EDDC /* MainVCFlowLayoutDelagate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCFlowLayoutDelagate.swift; sourceTree = "<group>"; };
+		0CBFBEB12705E1AB00D6EDDC /* SwitchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CBFBEB22705E1AB00D6EDDC /* SwitchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCollectionViewCell.xib; sourceTree = "<group>"; };
+		0CBFBEB72705F95600D6EDDC /* Constraint+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constraint+.swift"; sourceTree = "<group>"; };
+		0CBFBEB92706034800D6EDDC /* MainVCCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		0CBFBEBD27072F0F00D6EDDC /* AddEditSwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditSwitchVC.swift; sourceTree = "<group>"; };
+		0CBFBEBE27072F0F00D6EDDC /* AddEditSwitchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEditSwitchVC.xib; sourceTree = "<group>"; };
+		0CBFBEC62707523300D6EDDC /* AddEditSwitchVCColorPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditSwitchVCColorPickerDelegate.swift; sourceTree = "<group>"; };
+		0CBFBEC92707787B00D6EDDC /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		0CBFBEEE2707826A00D6EDDC /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		0CBFBEF02708D9D900D6EDDC /* MainVCCoreDataOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCCoreDataOperations.swift; sourceTree = "<group>"; };
+		0CBFBEF22708DBC100D6EDDC /* MainVCSwitchListOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCSwitchListOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,86 @@
 		0CBFBE7C2703455200D6EDDC /* MySwitchCollection */ = {
 			isa = PBXGroup;
 			children = (
+				0CBFBEB62705F94600D6EDDC /* Utils */,
+				0CBFBEA627035F6100D6EDDC /* Models */,
+				0CBFBE9E27035CA500D6EDDC /* Controllers */,
+				0CBFBE91270345DE00D6EDDC /* Components */,
 				0CBFBE7D2703455200D6EDDC /* AppDelegate.swift */,
 				0CBFBE7F2703455200D6EDDC /* SceneDelegate.swift */,
-				0CBFBE812703455200D6EDDC /* ViewController.swift */,
 				0CBFBE832703455200D6EDDC /* Main.storyboard */,
 				0CBFBE862703455300D6EDDC /* Assets.xcassets */,
 				0CBFBE882703455300D6EDDC /* LaunchScreen.storyboard */,
 				0CBFBE8B2703455300D6EDDC /* Info.plist */,
+				0CBFBEC82707787B00D6EDDC /* MySwitchCollectionModel.xcdatamodeld */,
 			);
 			path = MySwitchCollection;
+			sourceTree = "<group>";
+		};
+		0CBFBE91270345DE00D6EDDC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBEB52705E39400D6EDDC /* SwitchCollectionViewCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0CBFBE9E27035CA500D6EDDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBEBC27072EDC00D6EDDC /* AddEditSwitch */,
+				0CBFBEA127035EC300D6EDDC /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0CBFBEA127035EC300D6EDDC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBE9F27035CC600D6EDDC /* MainVC.swift */,
+				0CBFBEA227035ED600D6EDDC /* MainVCDataSource.swift */,
+				0CBFBEAB2705DC8800D6EDDC /* MainVCFlowLayoutDelagate.swift */,
+				0CBFBEB92706034800D6EDDC /* MainVCCollectionViewDelegate.swift */,
+				0CBFBEF02708D9D900D6EDDC /* MainVCCoreDataOperations.swift */,
+				0CBFBEF22708DBC100D6EDDC /* MainVCSwitchListOperations.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0CBFBEA627035F6100D6EDDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBEA727035F6A00D6EDDC /* Switch.swift */,
+				0CBFBEA927035FAD00D6EDDC /* Tag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CBFBEB52705E39400D6EDDC /* SwitchCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBEB12705E1AB00D6EDDC /* SwitchCollectionViewCell.swift */,
+				0CBFBEB22705E1AB00D6EDDC /* SwitchCollectionViewCell.xib */,
+			);
+			path = SwitchCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0CBFBEB62705F94600D6EDDC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBEB72705F95600D6EDDC /* Constraint+.swift */,
+				0CBFBEEE2707826A00D6EDDC /* UIColor+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0CBFBEBC27072EDC00D6EDDC /* AddEditSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0CBFBEBD27072F0F00D6EDDC /* AddEditSwitchVC.swift */,
+				0CBFBEBE27072F0F00D6EDDC /* AddEditSwitchVC.xib */,
+				0CBFBEC62707523300D6EDDC /* AddEditSwitchVCColorPickerDelegate.swift */,
+			);
+			path = AddEditSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBFBEB42705E1AB00D6EDDC /* SwitchCollectionViewCell.xib in Resources */,
 				0CBFBE8A2703455300D6EDDC /* LaunchScreen.storyboard in Resources */,
+				0CBFBEC027072F0F00D6EDDC /* AddEditSwitchVC.xib in Resources */,
 				0CBFBE872703455300D6EDDC /* Assets.xcassets in Resources */,
 				0CBFBE852703455200D6EDDC /* Main.storyboard in Resources */,
 			);
@@ -137,9 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBFBE822703455200D6EDDC /* ViewController.swift in Sources */,
+				0CBFBEA327035ED600D6EDDC /* MainVCDataSource.swift in Sources */,
+				0CBFBEBF27072F0F00D6EDDC /* AddEditSwitchVC.swift in Sources */,
+				0CBFBEBA2706034800D6EDDC /* MainVCCollectionViewDelegate.swift in Sources */,
+				0CBFBEB82705F95600D6EDDC /* Constraint+.swift in Sources */,
+				0CBFBEB32705E1AB00D6EDDC /* SwitchCollectionViewCell.swift in Sources */,
+				0CBFBEAA27035FAD00D6EDDC /* Tag.swift in Sources */,
+				0CBFBEF32708DBC100D6EDDC /* MainVCSwitchListOperations.swift in Sources */,
+				0CBFBECA2707787B00D6EDDC /* MySwitchCollectionModel.xcdatamodeld in Sources */,
+				0CBFBEA827035F6A00D6EDDC /* Switch.swift in Sources */,
+				0CBFBEA027035CC600D6EDDC /* MainVC.swift in Sources */,
 				0CBFBE7E2703455200D6EDDC /* AppDelegate.swift in Sources */,
 				0CBFBE802703455200D6EDDC /* SceneDelegate.swift in Sources */,
+				0CBFBEAC2705DC8800D6EDDC /* MainVCFlowLayoutDelagate.swift in Sources */,
+				0CBFBEC72707523300D6EDDC /* AddEditSwitchVCColorPickerDelegate.swift in Sources */,
+				0CBFBEF12708D9D900D6EDDC /* MainVCCoreDataOperations.swift in Sources */,
+				0CBFBEEF2707826A00D6EDDC /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +457,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0CBFBEC82707787B00D6EDDC /* MySwitchCollectionModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CBFBEC92707787B00D6EDDC /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 0CBFBEC92707787B00D6EDDC /* CoreData.xcdatamodel */;
+			path = MySwitchCollectionModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0CBFBE722703455200D6EDDC /* Project object */;
 }
